@@ -2,10 +2,11 @@ package allure
 
 import (
 	"fmt"
-	"github.com/rs/zerolog/log"
 	"os"
 	"sync"
 	"time"
+
+	"github.com/rs/zerolog/log"
 )
 
 const (

@@ -3,9 +3,10 @@ package allure
 import (
 	"encoding/json"
 	"fmt"
+	"path"
+
 	"github.com/google/uuid"
 	"github.com/onsi/ginkgo/v2/types"
-	"path"
 )
 
 type container struct {

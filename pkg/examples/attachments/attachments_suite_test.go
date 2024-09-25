@@ -6,7 +6,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"allure-ginkgo/pkg/allure"
+	"github.com/squirrelInAWheel/allure-ginkgo/pkg/allure"
 )
 
 func TestAttachments(t *testing.T) {

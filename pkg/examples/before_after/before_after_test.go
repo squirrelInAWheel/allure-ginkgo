@@ -2,9 +2,10 @@ package before_after_test
 
 import (
 	"fmt"
+
 	. "github.com/onsi/ginkgo/v2"
 
-	"allure-ginkgo/pkg/examples"
+	"github.com/squirrelInAWheel/allure-ginkgo/pkg/examples"
 )
 
 var counter = 0

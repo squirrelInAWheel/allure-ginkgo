@@ -3,14 +3,13 @@ package allure
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/onsi/gomega"
-	"github.com/rs/zerolog/log"
 	"os"
 	"strings"
 
 	"github.com/google/uuid"
-
+	"github.com/onsi/gomega"
 	"github.com/pkg/errors"
+	"github.com/rs/zerolog/log"
 )
 
 type attachment struct {

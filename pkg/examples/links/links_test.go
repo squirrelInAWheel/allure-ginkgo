@@ -3,8 +3,8 @@ package links_test
 import (
 	. "github.com/onsi/ginkgo/v2"
 
-	"allure-ginkgo/pkg/allure"
-	"allure-ginkgo/pkg/examples"
+	"github.com/squirrelInAWheel/allure-ginkgo/pkg/allure"
+	"github.com/squirrelInAWheel/allure-ginkgo/pkg/examples"
 )
 
 var _ = It("Tests with links",

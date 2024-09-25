@@ -4,8 +4,6 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
-	"github.com/onsi/ginkgo/v2"
-	"github.com/rs/zerolog/log"
 	"os"
 	"reflect"
 	"runtime"
@@ -13,8 +11,9 @@ import (
 	"strings"
 
 	"github.com/google/uuid"
-
+	"github.com/onsi/ginkgo/v2"
 	"github.com/onsi/ginkgo/v2/types"
+	"github.com/rs/zerolog/log"
 )
 
 const descriptionReportEntryName = "DESCRIPTION"

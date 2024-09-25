@@ -2,10 +2,11 @@ package statuses_test
 
 import (
 	"fmt"
+
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"allure-ginkgo/pkg/examples"
+	"github.com/squirrelInAWheel/allure-ginkgo/pkg/examples"
 )
 
 var _ = Describe("Test statuses suite", func() {
